@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="background">
+
+        <div class="hiderDiv1 hide">
+    
+            <section id="preGamePage">
+
+                <h1>Wellcome to the <span>EPIC</span> Rock, Paper, Scissor game</h1>
+
+                <button>Press to start</button>
+
+            </section>
+
+        </div>
+
+        <div class="hiderDiv2 hide">
+
+            <section id="gameScreen">
+
+                <div id="playerChoicesContainer">
+                    
+                    <p> Choose your destiny! </p>
+
+                    <div id="R_P_S_Cont">
+                        <div class="choiceContainer rock"></div>
+                        <div class="choiceContainer paper"></div>
+                        <div class="choiceContainer scissor"></div>
+                    </div>
+
+                </div>
+
+                <div id="enemyPickingContainer">
+                    <p id="ePickingTxt">Enemy is picking!</p>
+                    <p id="eDonePickingTxt">Enemy has picked!</p>
+                </div>
+
+                <div id="cheatBtnCont"></div>
+
+                <div class="hiderDivGameResults hide" >
+
+                    <div id="gameResultScreen">
+
+                        <div id="pickResultsCont">
+                            
+                            <div id="playerChoice"></div>
+                            
+                            <div id="enemyChoice"></div>
+                        
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="hiderDiv3 ">
+
+            <section id="afterGameScreenCont">
+
+                <div id="afterGameScreen">
+
+                    <p id="afterGameText_Win" class="hide">You won!</p>
+                    <p id="afterGameText_Lose" class="hide">You lost!</p>
+                    <p id="afterGameText_Win5Row" class="hide">Wait what 5 wins in a row?Are you a master tactitian or are you cheating?</p>
+                    <p id="afterGameText_Los5Row" class="hide">No way... how anlaki can you be?... 5 loses in a row. Are you doing this on purpose? </p>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+
+	<script src="app.js"></script>
+  </body>
+</html>
