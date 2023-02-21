@@ -6,6 +6,11 @@
     font-family: 'Rajdhani', sans-serif;
 }
 
+.paperSVG, .scissorSVG{
+    margin: 0;
+    padding: 20px;
+}
+
 
 #background{
     background-color: rgb(48, 48, 48);
@@ -101,6 +106,20 @@
     flex-direction: row;
 }
 
+#drawTextContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drawTextContainer p{
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
 
 #enemyPickingContainer{
     width: 100%;
